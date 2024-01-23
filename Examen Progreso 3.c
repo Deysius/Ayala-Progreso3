@@ -31,6 +31,8 @@ int main()
             scanf("%d", &estudiante[num_estudiantes].matricula);
             // Pido al usuario que añada los datos del estudiante
             fprintf(archivo,"Matricula: %d\n",estudiante[num_estudiantes].matricula);
+            // La funcion fprintf me permite ingresar datos al archivo
+            // en este caso primero pido al usuario que ingrese el dato, luego con la funcion la envio al archivo
             fflush(stdin);
             printf("Ingrese el nombre: ");
             fgets(estudiante[num_estudiantes].nombre, 50, stdin);
