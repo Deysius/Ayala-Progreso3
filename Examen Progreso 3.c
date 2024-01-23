@@ -63,8 +63,16 @@ int main()
             break;
 
         case 2:
-        break;
-        default:
+        char caracter;
+        archivo=fopen("Examen.txt","r");
+        while (!feof(archivo))
+        {
+            caracter=fgetc(archivo);
+            putchar(caracter);
+            }
+            fclose(archivo);
+            break;
+            default:
             break;
         }
     }
