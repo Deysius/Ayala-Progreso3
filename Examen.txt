@@ -1,0 +1,9 @@
+
+Matricula: 2
+Nombre: 2
+
+Direccion: 2
+
+Materia: 2
+
+Nota: 2.000000
